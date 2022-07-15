@@ -1,0 +1,149 @@
+.todoContainer {
+  width: 700px;
+  margin: auto;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  /* background-color: #0000005b; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* text-align: center; */
+  
+}
+.subCabeza{
+  display: flex;
+  /* overflow: hidden; */
+}
+
+.todoCreateForm {
+  display: flex;
+  gap: 5px;
+}
+
+.todoInput {
+  flex-grow: 1;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: solid 1px #999;
+}
+.todoInput:focus {
+  outline: none;
+}
+
+.buttonCreate {
+  border: none;
+  border-radius: 3px;
+  /* border: solid 1px  rgb(26, 76, 169); */
+  border: solid 1px  rgb(37, 157, 255);
+  background-color: rgb(185, 224, 255);
+  color: rgb(37, 157, 255);
+  padding: 10px 20px;
+}
+
+.todosContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+  /* background-color:#000000d0; */
+}
+
+.todo {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+}
+
+.mitodo{
+  /* left: 10px; */
+  width: 100%;
+  display: flex;
+  justify-content:center;
+}
+#search{
+  /* left: 10px; */
+  max-width: 100%;
+  margin: 0.3em;
+  /* background-color: white; */
+}
+
+
+.todoUpdateForm,
+.todoInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  
+}
+.divSpan{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.todoTitle {
+  flex: 1;
+  margin-left:0.4em;
+  font-size:1.4em;
+  color:#0084ff9c;
+}
+.descrip{
+  width:100%;
+  margin:0.6em;
+  font-size: 0.9em;
+  color:#756e6e;
+
+}
+.date{
+  width:20%;
+  font-size: 0.7em;
+  font-weight: 700;
+  color:#756e6e;
+}
+.button {
+  border: none;
+  border-radius: 3px;
+  /* border: solid 1px rgb(42, 122, 221); */
+  border: solid 1px rgb(42, 221, 57);
+  background-color: rgb(190, 255, 195);;
+  font-weight: bold;
+  color: rgb(46, 206, 59);;
+  padding: 10px 20px;
+}
+
+.buttonDelete {
+  border: none;
+  border-radius: 3px;
+  border: solid 1px rgb(255, 52, 52);
+  /* background-color: rgb(169, 26, 26); */
+   background-color: rgb(255, 196, 196);
+  color: rgb(255, 61, 61);
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.contitle{
+  width: 100%;
+  height:10vh;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  /* background-color:#0084ff9c; */
+}
+
+.title{
+  color:rgb(82, 175, 252);
+  /* margin:6.5em 0 0 0.5em; */
+  margin: auto;
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.container{
+    width: 100%;
+    height: 20em;
+    overflow: hidden;
+    /* margin: 4em 1em 1em 0em; */
+    /* background-repeat: no-repeat; */
+  
+}
